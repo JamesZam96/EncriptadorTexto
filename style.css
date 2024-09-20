@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F3F5FC;
+}
+
+/*header*/
+.header{
+    width: 100%;
+}
+
+/*header logo*/
+.header__logo{
+    padding: 2% 2%;
+}
+
+/*main*/
+.container{
+    width: 90%;
+    border: 1px solid black;
+    margin: 1% 5% 1% 5%;
+    height: auto;
+}
+
+/*section*/
+.elements__container{
+    width: 100%;
+    margin: 2% 0%;
+    border: 1px solid black;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+/*left div*/
+.elements__container__left{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*left input*/
+.elements__container__left__input{
+    width: 90%;
+    height: 300px;
+    color: #0A3871;
+    border: none;
+    background-color: #F3F5FC;
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 2% 2%;
+    resize: none;
+}
+
+.elements__container__left__input::-webkit-input-placeholder{
+    color: #0A3871;
+}
+
+.elements__container__left__input:focus{
+    outline: none;
+}
+
+/*warning text*/
+.warning__text{
+    color: #495057;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-bottom: 1rem ;
+}
+
+/*buttons container*/
+.elements__container__left__buttons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10rem;
+    gap: 2rem;
+}
+
+/*encrypt button*/
+.encrypt__button{
+    width: 20.5rem;
+    height: 4.2rem;
+    border-radius: 1.5rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    background-color: #0A3871;
+    color: white;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+
+.encrypt__button:hover{
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
+
+/*decrypt button*/
+.decrypt__button{
+    width: 20.5rem;
+    height: 4.2rem;
+    border-radius: 1.5rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-weight: 400;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+
+.decrypt__button:hover{
+    background-color: #0A3871;
+    color: #D8DFE8;
+}
+
+/*right div*/
+.elements__container__right{
+    width: 40%;
+    height: auto;
+    background-color: white;
+    margin-left: 5%;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*image*/
+.elements__container__right__image{
+    width: 21rem;
+    height: 19rem;
+    margin-top: 10rem;
+}
+
+.elements__container__right__h2{
+    
+}
+
+
