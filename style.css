@@ -132,7 +132,7 @@ body{
 /*right div*/
 .elements__container__right{
     width: 40%;
-    height: auto;
+    height: 62.5rem;
     background-color: white;
     margin-left: 5%;
     border-radius: 2rem;
@@ -145,11 +145,23 @@ body{
 .elements__container__right__image{
     width: 21rem;
     height: 19rem;
-    margin-top: 10rem;
+    margin-top: 16rem;
 }
 
 .elements__container__right__h2{
-    
+    margin-top: 2rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #343A40;
+}
+
+.elements__container__right__p{
+    margin-top: 1rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #495057;
 }
 
 
