@@ -51,6 +51,7 @@ function showInicialConditions(){
     document.getElementById('person_image').style.display = 'block';
     document.getElementById('subtitle').style.display = 'block';
     document.getElementById('text').innerHTML = 'Ingresa el texto que desees encriptar o desencriptar';
+    document.getElementById('copy_button').style.display = 'none';
 }
 
 function copyText(){
