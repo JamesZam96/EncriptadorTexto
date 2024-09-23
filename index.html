@@ -13,21 +13,23 @@
     <main class="container">
         <section class="elements__container">
             <div class="elements__container__left">
-                <textarea class="elements__container__left__input" placeholder="Ingrese el texto aquí"></textarea>
+                <textarea class="elements__container__left__input" placeholder="Ingrese el texto aquí" id="text_user"></textarea>
                 <p class="warning__text">
                     <img src="img/advertencia.png" alt="IconoAdvertencia"> 
                     Solo letras minúsculas y sin acentos</p>
                 <div class="elements__container__left__buttons">
-                    <button class="encrypt__button">Encriptar</button>
-                    <button class="decrypt__button">Desencriptar</button>
+                    <button class="encrypt__button" id="encrypt_button" onclick="encrypt()">Encriptar</button>
+                    <button class="decrypt__button" id="decrypt_button" onclick="decrypt()">Desencriptar</button>
                 </div>
             </div>
             <div class="elements__container__right">
-                <img src="img/muneco.png" alt="Muñeco" class="elements__container__right__image">
-                <h2 class="elements__container__right__h2">Ningún mensaje fue encontrado</h2>
-                <p class="elements__container__right__p">Ingresa el texto que desees encriptar o desencriptar</p>
+                <img src="img/muneco.png" alt="Muñeco" class="elements__container__right__image" id="person_image">
+                <h2 class="elements__container__right__h2" id="subtitle">Ningún mensaje fue encontrado</h2>
+                <p class="elements__container__right__p" id="text">Ingresa el texto que desees encriptar o desencriptar</p>
+                <button class="elements__container__right__button" id="copy_button" hidden onclick="copyText()">Copiar</button>
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
